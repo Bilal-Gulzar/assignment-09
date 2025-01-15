@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { Skeleton } from '@/components/ui/skeleton';
 type param = {
-   params:{slug:string}
-}
+  params: Promise<{ slug: string }>;
+};
 
 type rating = {
   rate: number;
