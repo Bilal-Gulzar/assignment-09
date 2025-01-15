@@ -1,4 +1,3 @@
-import React, { Suspense } from 'react'
 import Image from 'next/image'
 import { Skeleton } from '@/components/ui/skeleton';
 type param = {
